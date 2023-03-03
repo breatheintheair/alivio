@@ -9,69 +9,145 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="header_container">
-                <a href="#" class="header_logo">Alivio</a>
-                <nav class="header_nav">
-                    <ul class="header_ul" id="headerUl">
-                        <li class="header_li"><a href="#" class="header_a">Why Alivio</a></li>
-                        <li class="header_li"><a href="#" class="header_a">Solutions</a></li>
-                        <li class="header_li"><a href="#" class="header_a">Community</a></li>
-                        <li class="header_li"><a href="#" class="header_a">Pricing</a></li>
-                        <span class="material-icons-outlined" id="close" onclick="navToggle()">close</span>
-                    </ul>
-                </nav>
-                <div class="header_burger">
-                    <span class="material-icons-outlined" onclick="navToggle()">menu</span>
-                </div>
-            <div class="header_auth">
-                <a href="#" class="btn btn_link">Sign in</a>
-                <a href="#" class="btn btn_primary">Start Trial</a>
+<div class="wrapper">
+     <header class="header">
+       <div class="header_container">
+         <a href="#" class="header_logo">Alivio</a>
+         <nav class="header_nav">
+           <ul class="header_ul" id="headerUL">
+             <li class="header_li">
+              <a href="#" class="header_a">Why Alivio</a>
+            </li>
+             <li class="header_li">
+              <a href="#" class="header_a">Solutions</a>
+            </li>
+             <li class="header_li">
+              <a href="#" class="header_a">Community</a>
+            </li>
+             <li class="header_li">
+              <a href="#" class="header_a">Pricing</a>
+            </li>
+             <span class="material-icons" id="close" onclick="navToggle()">close</span>
+           </ul>
+         </nav>
+         <div class="header_burger">
+          <span class="material-icons" onclick="navToggle()">menu</span>
+         </div>
+         <div class="header_auth">
+           <a href="#" class="btn btn_link">Sign in</a>
+           <a href="#" class="btn btn_primary">Start Trial</a>
+         </div>
+       </div>
+     </header>
+    <div class="container">
+    <section class="main_section">
+        <div class="main_section_bg">
+          <img src="img/main-bg.jpg" alt="main bg">
+        </div>
+        <div class="main_section_title">
+          Be aware, Manage well.
+        </div>
+        <div class="main_section_desc">
+          Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+        </div>
+        <div class="main_section_btn">
+          <a href="#" class="btn btn_primary">Find Your Way</a>
+        </div>
+      </section>
+      <section class="how_section">
+        <div class="how_section_title">How it works</div>
+        <div class="how_section_header">
+          <div class="how_section_slogan">Understand & Release the stress in 3 steps</div>
+          <div class="how_section_desc">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</div>
+        </div>
+        <div class="how_section_list">
+          <div class="how_section_item item">
+            <div class="item_title">Personalize</div>
+            <div class="item_desc">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</div>
+            <div class="item_img">
+              <img src="img/img1.png" alt="img1">
             </div>
-            
-        </header>
-        <div class="container">
-            <section class="main_section">
-                <div class="main_section_bg"><img src="img/main-bg.jpg" alt="main bg"></div>
-                <div class="main_section_title">Be aware, Manage well.</div>
-                <div class="main_section_desc">Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</div>
-                <div class="main_section_btn">
-                    <a class="btn btn_primary" href="#">Find Your Way</a>
-                </div>
-
-            </section>
-
-            <section class="how_section">
-                <div class="how_section_title">How it works</div>
-                <div class="how_section_header">
-                    <div class="how_section_slogan">Understand & Release 
-                        the stress in 3 steps</div>
-                    <div class="how-section_desc">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</div>
-                </div>
-                <div class="how_section_list">
-                    <div class="how_section_item">
-                        <div class="item_title">Personalize</div>
-                        <div class="item_desc">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</div>
-                        <div class="item_img">
-                            <img src="img/img1.png" alt="img1">
-                        </div>
-                    </div>
-                    <div class="how_section_item">
-                        <div class="item_title">Write & Understand</div>
-                        <div class="item_desc">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</div>
-                        <div class="item_img">
-                            <img src="img/img2.png" alt="img2">
-                        </div>
-                        <div class="how_section_list">
-                            <div class="how_section_item item">
-                                <div class="item_title">Alivio!</div>
-                                <div class="item_desc">Now you are aware, and have a way to manage and overcome your own stress.
-                                    What are you waiting for? Alivio today!</div>
-                                <div class="item_img">
-                                    <img src="img/img3.png" alt="img3">
-                                </div>
+          </div>
+          <div class="how_section_item item">
+            <div class="item_title">Write & Understand</div>
+            <div class="item_desc">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</div>
+            <div class="item_img">
+              <img src="img/img2.png" alt="img2">
+            </div>
+          </div>
+          <div class="how_section_item item">
+            <div class="item_title">Alivio!</div>
+            <div class="item_desc">Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today!</div>
+            <div class="item_img">
+              <img src="img/img3.png" alt="img3">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="story_section">
+        <div class="story_section_inform">
+          <div class="story_section_inform_title">
+            Let's hear about Kayla's success story
+          </div>
+          <div class="story_section_inform_desc">
+            See how well Alivio works in a real customer's life. 
+          </div>
+          <div class="story_section_inform_btn">
+            <a href="#" class="btn btn_primary">Let's get started</a>
+          </div>
+        </div>
+        <div class="story_section_video">
+          <a href="#"><img src="img/video-bg.png" alt="video"></a>
+        </div>
+      </section>
+      <section class="product_section">
+        <div class="product_section-ph">
+          <img src="img/woman.png" alt="woman">
+        </div>
+        <div class="product_section_info">
+          <div class="product_section_info_title">
+            Our product
+          </div>
+          <div class="product_section_info_slogan">
+            You tell us your stress, We make your diary
+          </div>
+          <div class="product_section_info_desc">
+            Everyone experiences it, and in different ways.
+            Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+          </div>
+          <div class="product_section_inform_btn">
+            <a href="#" class="btn btn_primary">Find Your Way</a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer_container">
+          <a href="#" class="footer_logo">Alivio</a>
+          <nav class="footer_nav">
+            <ul class="footer_ul" id="headerUL">
+              <li class="footer_li">
+               <a href="#" class="footer_a">Why Alivio</a>
+             </li>
+              <li class="footer_li">
+               <a href="#" class="footer_a">Solutions</a>
+             </li>
+              <li class="footer_li">
+               <a href="#" class="footer_a">Community</a>
+             </li>
+              <li class="footer_li">
+               <a href="#" class="footer_a">Pricing</a>
+             </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
